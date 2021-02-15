@@ -1,5 +1,5 @@
 GET http://localhost:3000/members
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZmlyc3QxIiwiaWF0IjoxNjEzNDA1NDE4fQ.hzYpJMM1l4oOCSGmoL233o4dKm0A8QQVSle1inZl-zg
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibmFvdWZhbCIsImlhdCI6MTYxMzQzMDU4Mn0.GRqspwUerrZi_DMdP6crKoZUPLlir46rnkQx7nC59TI
 ###
 
 POST http://localhost:3000/login

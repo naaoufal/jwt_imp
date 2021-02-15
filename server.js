@@ -1,17 +1,23 @@
 require('dotenv').config()
 const e = require('express')
+const path = require('path')
 const express = require('express')
 const jwt = require('jsonwebtoken')
 const app = express()
 
+// use static files for views:
+app.use(express.static(path.join(__dirname, "views")));
+
 const members = [
     {
         "firstname" : "naoufal",
-        "lastname" : "benmansour"
+        "lastname" : "benmansour",
+        "password" : "azer"
     },
     {
         "firstname" : "first1",
-        "lastname" : "last1"
+        "lastname" : "last1",
+        "password" : "azer"
     }
 ]
 
