@@ -1,0 +1,10 @@
+GET http://localhost:3000/members
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZmlyc3QxIiwiaWF0IjoxNjEzNDA1NDE4fQ.hzYpJMM1l4oOCSGmoL233o4dKm0A8QQVSle1inZl-zg
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "firstname" : "first1"
+}
