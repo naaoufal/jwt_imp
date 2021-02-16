@@ -18,6 +18,11 @@ const members = [
         "firstname" : "first1",
         "lastname" : "last1",
         "password" : "azer"
+    },
+    {
+        "firstname" : "first2",
+        "lastname" : "last2",
+        "password" : "azer"
     }
 ]
 
